@@ -1,0 +1,39 @@
+#loading {
+	width: 600px;
+	padding: 50px;
+	text-align: center;
+	font-size: 40px;
+}
+
+#container {
+	display: none;
+	width: 600px;
+}
+
+#canvas {
+	float: right;
+	border: 1px solid #000;
+}
+
+#toolbar {
+	float: left;
+	width: 100px;
+}
+
+#clear {
+	width: 96px;
+	margin: auto;
+}
+
+button.color {
+	display: inline-block;
+	border: 1px solid #333;
+	width: 30px;
+	height: 20px;
+	border-radius: 20px;
+	margin-right: 2px;
+}
+
+button.color.selected {
+	border: 2px solid #000;
+}
